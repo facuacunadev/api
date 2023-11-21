@@ -1,0 +1,30 @@
+version: "3.9"  
+services:
+  mssql:
+    hostname: mssql
+    image: mcr.microsoft.com/mssql/server:latest
+    environment: 
+      ACCEPT_EULA: "Y"
+      SA_PASSWORD: "M1sterPassw0rd!"
+      MSSQL_PID: Express
+    ports: 
+      - "14333:1433"
+      
+  api:
+    hostname: api
+    image: microservices-api:latest
+    depends_on:
+      - mssql
+    ports: 
+      - "8080:80"
+
+  redis:
+    image: redis:alpine
+    container_name: redis
+    restart: always
+    ports:
+      - "16969:16969"
+    command: redis-server
+  
+
+    
