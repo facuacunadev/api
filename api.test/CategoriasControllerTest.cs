@@ -26,6 +26,7 @@ namespace api.test
         {
             var res = await _context.Categorias.Where(w => w.Habilitado == true).ToListAsync();
             Assert.True(res != null);
+            //cambio para la rama dev
         }
     }
 }
