@@ -30,23 +30,7 @@ jobs:
         run: dotnet build --configuration ${{ env.BUILD_CONFIGURATION }}
         working-directory: "${{ env.PROJECT_PATH }}"
         
-      #- name: Unit Tests 
-      #  run: dotnet test ${{ env.PROJECT_TEST_PATH }}
-
-#job for unit testing...
-  run-tests:
-    runs-on: ubuntu-latest
-	env:
-      PROJECT_TEST_PATH: 'api.test'	
-    services:
-      mssql:
-        image: mcr.microsoft.com/mssql/server:2019-latest
-        env:
-			ACCEPT_EULA: "Y"
-			SA_PASSWORD: "M1sterPassw0rd!"
-			MSSQL_PID: Express
-        ports:
-          - 1433:1433
-	steps:
       - name: Unit Tests 
-        run: dotnet test ${{ env.PROJECT_TEST_PATH }}		
+        run: dotnet test ${{ env.PROJECT_TEST_PATH }}
+
+	
