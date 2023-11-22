@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\facun\\OneDrive\\Escritorio\\UP\\cursada\\4C\\3 devops\\_TP integrador\\microservices-main\\microservices-main\\api\\api.csproj": {}
+    "C:\\UP\\microservices-main\\microservices-main\\api\\api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\facun\\OneDrive\\Escritorio\\UP\\cursada\\4C\\3 devops\\_TP integrador\\microservices-main\\microservices-main\\api\\api.csproj": {
+    "C:\\UP\\microservices-main\\microservices-main\\api\\api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\facun\\OneDrive\\Escritorio\\UP\\cursada\\4C\\3 devops\\_TP integrador\\microservices-main\\microservices-main\\api\\api.csproj",
+        "projectUniqueName": "C:\\UP\\microservices-main\\microservices-main\\api\\api.csproj",
         "projectName": "api",
-        "projectPath": "C:\\Users\\facun\\OneDrive\\Escritorio\\UP\\cursada\\4C\\3 devops\\_TP integrador\\microservices-main\\microservices-main\\api\\api.csproj",
+        "projectPath": "C:\\UP\\microservices-main\\microservices-main\\api\\api.csproj",
         "packagesPath": "C:\\Users\\facun\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\facun\\OneDrive\\Escritorio\\UP\\cursada\\4C\\3 devops\\_TP integrador\\microservices-main\\microservices-main\\api\\obj\\",
+        "outputPath": "C:\\UP\\microservices-main\\microservices-main\\api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

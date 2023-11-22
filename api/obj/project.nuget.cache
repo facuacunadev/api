@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+HMSPxSMvgrXxwswu6DmrxGH2ved3kFQOegKF99sGP9D5K7BYUTZFdC/Pt3ofuVH1Bq7RFZ0KZ9DCv1BmSxX8g==",
+  "dgSpecHash": "qigy/qocgS9QawOLZvvo6uBrR7t8Y1NjUBp2KHbYiKdNbxwH7/ECX8pYdtwfcOjHcSG0KPRAmb+7n2r0zjuoqA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\facun\\OneDrive\\Escritorio\\UP\\cursada\\4C\\3 devops\\_TP integrador\\microservices-main\\microservices-main\\api\\api.csproj",
+  "projectFilePath": "C:\\UP\\microservices-main\\microservices-main\\api\\api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\facun\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\facun\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
